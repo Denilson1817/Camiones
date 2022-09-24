@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">MyBus</string>
+    <string name="app_name">XD</string>
+    <string name="NameVar1">Ingrese el nombre de la tarifa</string>
+    <string name="NameVar2">Ingrese el ID de la ruta</string>
+    <string name="inVar1">Nombre de la tarifa</string>
+    <string name="inVar2">ID de la ruta</string>
+
+    <string name="NameVar11">Ingrese el valor de la tarifa</string>
+    <string name="NameVar21">Ingrese el ID de las calles</string>
+    <string name="inVar11">Valor de la tarifa</string>
+    <string name="inVar21">ID calles de la ruta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

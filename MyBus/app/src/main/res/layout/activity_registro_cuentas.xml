@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro_Cuentas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/inSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickSesion"
+            android:text="Sesion" />
+
+        <Button
+            android:id="@+id/crCuentas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickCuentas"
+            android:text="Cuentas" />
+
+        <Button
+            android:id="@+id/altas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickAlta"
+            android:text="Altas" />
+
+        <Button
+            android:id="@+id/suReportes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickReportes"
+            android:text="Reportes" />
+    </LinearLayout>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:background="@color/purple_700"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elegantTextHeight="false"
+            android:gravity="center"
+            android:text="Crear cuenta"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        app:tabGravity="fill"
+        app:tabSelectedTextColor="@color/purple_500"
+        app:tabTextColor="@color/white"
+        app:tabBackground="@color/purple_200"
+        app:tabIndicatorColor="@color/teal_700"
+        app:tabMode="fixed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>
+

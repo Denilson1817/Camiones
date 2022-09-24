@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P_Chofer">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:background="@color/purple_500"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elegantTextHeight="false"
+            android:gravity="center"
+            android:text="Chofer"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtRFCAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="75dp"
+            android:padding="10dp"
+            android:text="Ingrese su RFC" />
+
+        <EditText
+            android:id="@+id/inRFCAd"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="RFC"
+            android:inputType="textNoSuggestions"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/txtNombreAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:text="Ingrese su nombre" />
+
+        <EditText
+            android:id="@+id/inNombreAd"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/txtNumCelularAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:text="Ingrese su número telefónico" />
+
+        <EditText
+            android:id="@+id/inNumCelularAd"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Número de teléfono"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancelAd"
+                android:layout_margin="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/purple_500"
+                android:textColor="@color/white"
+                android:text="Cancelar" />
+
+            <Button
+                android:id="@+id/btnRegisAd"
+                android:layout_margin="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/purple_500"
+                android:textColor="@color/white"
+                android:text="Registrarse" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

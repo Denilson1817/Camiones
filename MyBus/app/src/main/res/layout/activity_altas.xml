@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Altas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/inSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickSesion"
+            android:text="Sesion" />
+
+        <Button
+            android:id="@+id/crCuentas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickCuentas"
+            android:text="Cuentas" />
+
+        <Button
+            android:id="@+id/altas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickAlta"
+            android:text="Altas" />
+
+        <Button
+            android:id="@+id/suReportes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickReportes"
+            android:text="Reportes" />
+
+    </LinearLayout>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elegantTextHeight="false"
+            android:gravity="center"
+            android:text="Altas"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Spinner
+        android:id="@+id/spinnerAltas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="50dp"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="75dp"
+        android:padding="10dp"
+        android:text=" " />
+
+    <EditText
+        android:id="@+id/inName"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint=" "
+        android:inputType="textNoSuggestions"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="75dp"
+        android:padding="10dp"
+        android:text=" " />
+
+    <EditText
+        android:id="@+id/inValor"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textNoSuggestions"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelAd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@color/purple_500"
+            android:text="Cancelar"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnRegisAd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@color/purple_500"
+            android:text="Guardar"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

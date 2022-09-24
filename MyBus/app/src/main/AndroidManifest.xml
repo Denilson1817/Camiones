@@ -12,11 +12,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyBus"
         tools:targetApi="31">
-
+        <activity
+            android:name=".Subir_Reporte"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Registro_Cuentas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Inicio_Sesion"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Altas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".altaUnidad"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
