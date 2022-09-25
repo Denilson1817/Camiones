@@ -27,7 +27,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Inicio_Sesion"
+            android:name=".InicioSesion"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -42,6 +42,24 @@
         </activity>
         <activity
             android:name=".altaUnidad"
+            android:exported="false" />
+        <activity
+            android:name=".altasJorge"
+            android:exported="false" />
+        <activity
+            android:name=".asignar"
+            android:exported="false" />
+        <activity
+            android:name=".asignarHorarios"
+            android:exported="false" />
+        <activity
+            android:name=".asignarRuta"
+            android:exported="false" />
+        <activity
+            android:name=".asignarUnidad"
+            android:exported="false" />
+        <activity
+            android:name=".registroChoferes"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
