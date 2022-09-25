@@ -20,10 +20,19 @@ class InicioSesion : AppCompatActivity() {
     }
 
     fun leer(view: View) {
-
-        
-        val intent = Intent(this, altasJorge::class.java)
-        startActivity(intent)
-        finish()
+        val editText = findViewById<EditText>(R.id.editTextTextPersonName)
+        val text = editText.getText().toString()
+        val editText2 = findViewById<EditText>(R.id.editTextTextPersonName2)
+        val text2 = editText2.text.toString()
+        val nombre = "jorge"
+        val usuario = "123456"
+        if(nombre.equals(text)==true && usuario.equals(text2)==true) {
+            Toast.makeText(this, "usuario registrado", Toast.LENGTH_SHORT).show()
+            val intent= Intent(this,altasJorge::class.java)
+            startActivity(intent)
+            finish()
+        }
+        else
+            Toast.makeText(this, "usuario no registrado", Toast.LENGTH_SHORT).show()
     }
 }
