@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+
+        <TextView
+            android:id="@+id/NChofer"
+            android:layout_width="match_parent"
+            android:padding="3dip"
+            android:text="chofer" />
+
+        <TextView
+            android:id="@+id/Matricula"
+            android:padding="3dip"
+            android:text="Matricula" />
+
+        <TextView
+            android:id="@+id/IdChofer"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Id" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Denilson Perez Cortina" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="3dip"
+            android:gravity="center"
+            android:text="12QY6B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="123" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Natalia Roldan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="17QR56" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="189" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Damian Garcia" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="14UY75" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="176" />
+    </TableRow>
+
+</TableLayout>

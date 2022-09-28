@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.SegundoFragment" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/NChofer"
+                android:layout_width="match_parent"
+                android:padding="3dip"
+                android:text="chofer" />
+
+            <TextView
+                android:id="@+id/Matricula"
+                android:layout_width="114dp"
+                android:padding="3dip"
+                android:text="Matricula" />
+
+            <TextView
+                android:id="@+id/IdChofer"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="Id" />
+
+            <TextView
+                android:id="@+id/Horario"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="Horario" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="Denilson Perez Cortina" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="12QY6B" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="123" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="7am-5pm" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="Natalia Roldan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="17QR56" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="189" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="5am-11pm" />
+        </TableRow>
+
+        <TableRow android:layout_width="397dp">
+
+            <TextView
+                android:padding="3dip"
+                android:text="Damian Garcia" />
+
+            <TextView
+                android:layout_width="74dp"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="14UY75" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="176" />
+
+            <TextView
+                android:layout_width="49dp"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="10am-3pm" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
